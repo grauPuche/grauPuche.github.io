@@ -1,6 +1,6 @@
 <head>
 	<meta charset="utf-8">
-	<title>Grau de nom</title>
+	<title>grau de Blog {{page.number}}</title>
 	<style type="text/css"></style>
 	<link rel="stylesheet" href="{{ 'css/styleBlog.css' | relative_url }}">
 	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -13,6 +13,8 @@
  		function inici(){
  			$(".category").mouseover(entrar);
  			$(".category").mouseout(sortir);
+			$(".about").mouseover(entrar);
+ 			$(".about").mouseout(sortir);
  		}
 
  		function entrar(){
@@ -26,6 +28,37 @@
  			$(this).text(a2);
 
  		}
+
+		$(function(){
+			$(".md a").attr("target","_blank");
+		});
+
+		$(function() {
+			$('.socicon1').hover(
+				function() {
+				$('.socicon_linked').css('fill', '#7c7c7c');
+			},	function() {
+				$('.socicon_linked').css('fill', '#000000');
+				});
+			});
+
+		$(function() {
+			$('.socicon2').hover(
+				function() {
+				$('.socicon_insta').css('fill', '#7c7c7c');
+			},	function() {
+				$('.socicon_insta').css('fill', '#000000');
+				});
+			});
+
+		$(function() {
+			$('.socicon3').hover(
+				function() {
+				$('.socicon_gith').css('fill', '#7c7c7c');
+			},	function() {
+				$('.socicon_gith').css('fill', '#000000');
+				});
+			});
 
  		</script>
 </head>
