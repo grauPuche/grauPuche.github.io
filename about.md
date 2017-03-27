@@ -18,7 +18,7 @@ Do not hesitate on sending me an email. <br> Any advice? wanna send hate mail? L
 
 * designer learning tech
 * web is my main focus
-* you should check out my [blog][a3]
+* you should check out my [portolio][a3]
 * go down the rabbit hole an come and visit my [GitHub][a4].
 * I really try to be active on [intagram][a5]
 * if for some reason you want my [CV][CV] take it, I also have [linkedIn][a6].

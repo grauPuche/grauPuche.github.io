@@ -380,9 +380,23 @@ a{
 	margin-bottom: 20px;
 }
 
+.md li{
+	padding-top: 5px;
+}
+
+.md p{
+	line-height: 140%;
+}
+
 p{
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+pre{
+	margin: 30px;
+	font-family: 'PT Mono';
+	background-color:#f7f7f7;
 }
 
 /*---------------------- MARKDOWN ----------------------*/
@@ -403,8 +417,7 @@ h2{
     margin-top: 50px;
     margin-bottom: 30px;
     font-style: inherit;
-    margin-left:50px;
-
+    margin-left:35px;
 }
 
 h3{
@@ -413,7 +426,7 @@ h3{
     margin-top: 40px;
     margin-bottom: 30px;
     font-style: inherit;
-    margin-left: 75px;
+    margin-left: 45px;
 }
 
 ul {
@@ -428,17 +441,14 @@ ol {
 
 code{
     font-family: 'PT Mono';
-    color: #343434
+    color: #343434;
+    margin-top: 15px;
+    margin-bottom: 20px; 
 }
 
 td.gutter.gl{
     padding-right: 20px;
     color: #d3d3d3;
-}
-
-table{
-    margin-top: 15px;
-    margin-bottom: 20px; 
 }
 
 blockquote{
