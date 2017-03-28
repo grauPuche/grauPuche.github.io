@@ -23,6 +23,9 @@ author_email: grau@nyu.edu
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 url: http://blog.graupuche.info
 
+markdown: kramdown
+highlighter: rouge
+
 #### Under the Hood Stuff #####
 
 # Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes

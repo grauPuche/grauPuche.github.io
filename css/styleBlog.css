@@ -226,6 +226,7 @@ a.category{
 
 a.th_box{
     font-style: inherit;
+	color: #ffffff;
 }
 
 .th_box256{
@@ -281,6 +282,20 @@ a.th_box_in1{
 	width: 300px;
     font-style: italic;
     font-weight: 400;
+}
+
+.th_box_in3{
+	color: #ffffff;
+	font-size: 9pt;
+	position: absolute;
+	left: 25px;
+	top: 42px;
+	width: 400px;
+    font-weight: 400;
+}
+
+.th_box_in3 p a{
+	color: #ffffff;
 }
 
  /*----------------------POST----------------------*/ 
