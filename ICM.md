@@ -1,4 +1,4 @@
 ---
 layout: cat_ICM
-permalink: /computational media/
+permalink: /computational_media/
 ---

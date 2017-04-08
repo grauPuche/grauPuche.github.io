@@ -1,4 +1,4 @@
 ---
 layout: cat_BAC
-permalink: /analog circuits/
+permalink: /analog_circuits/
 ---

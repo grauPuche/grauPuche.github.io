@@ -1,4 +1,4 @@
 ---
 layout: cat_PHY
-permalink: /physical computing/
+permalink: /physical_computing/
 ---

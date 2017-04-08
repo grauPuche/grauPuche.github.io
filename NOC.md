@@ -1,4 +1,4 @@
 ---
 layout: cat_NOC
-permalink: /nature of code/ 
+permalink: /nature_of_code/ 
 ---

@@ -1,4 +1,4 @@
 ---
 layout: cat_PIT
-permalink: /piecing it/
+permalink: /piecing_it_together/
 ---

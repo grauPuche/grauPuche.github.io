@@ -1,4 +1,4 @@
 ---
 layout: cat_SNV
-permalink: /sound & video/
+permalink: /sound_&_video/
 ---

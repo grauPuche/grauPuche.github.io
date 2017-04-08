@@ -414,6 +414,19 @@ pre{
 	background-color:#f7f7f7;
 }
 
+.md video {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 13px solid #ffffff;
+    background: #7c7c7c;
+}
+
+.md .v_512{
+	height: 512px;
+	width: 512px;
+}
+
 /*---------------------- MARKDOWN ----------------------*/
 
 h1{

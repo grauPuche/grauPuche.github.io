@@ -13,7 +13,7 @@ year: 2017
 
 #categories:
 #	applications
-#	physical_computing 
+#	physical computing 
 #	computationa_media 
 #	sound_&_video 
 #	alt_docs
@@ -21,7 +21,7 @@ year: 2017
 #	analog_circuits 
 #	nature_of_code
 #	networked_media
-#	piecing_it_together
+#	piecing it together
 #	bluetooth_LE
 ---
 

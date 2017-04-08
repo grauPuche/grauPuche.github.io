@@ -1,4 +1,4 @@
 ---
 layout: cat_TOP
-permalink: /towers of power/
+permalink: /towers_of_power/
 ---

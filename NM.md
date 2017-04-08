@@ -1,4 +1,4 @@
 ---
 layout: cat_NM
-permalink: /networked media/
+permalink: /networked_media/
 ---

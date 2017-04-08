@@ -1,4 +1,4 @@
 ---
 layout: cat_BLE
-permalink: /bluetooth LE/
+permalink: /bluetooth_LE/
 ---
