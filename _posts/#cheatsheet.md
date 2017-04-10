@@ -2,6 +2,7 @@
 layout: post
 title: THE title
 category: nature of code
+categoryLink: 
 day: march 10
 city: New York City
 number: 3
