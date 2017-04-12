@@ -8,57 +8,56 @@
 	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript">
- 		$("document").ready(inici);
+		$("document").ready(inici);
 
- 		function inici(){
- 			$(".category").mouseover(entrar);
- 			$(".category").mouseout(sortir);
+		function inici() {
+			$(".category").mouseover(entrar);
+			$(".category").mouseout(sortir);
 			$(".about").mouseover(entrar);
- 			$(".about").mouseout(sortir);
- 		}
+			$(".about").mouseout(sortir);
+		}
 
- 		function entrar(){
- 			a="//"+$(this).text();
- 			$(this).text(a);
+		function entrar() {
+			a = "//" + $(this).text();
+			$(this).text(a);
 
- 		}
- 		function sortir(){
- 			a=$(this).text();
- 			a2=a.substr(2,999)
- 			$(this).text(a2);
+		}
+		function sortir() {
+			a = $(this).text();
+			a2 = a.substr(2, 999)
+			$(this).text(a2);
 
- 		}
+		}
 
-		$(function(){
-			$(".md a").attr("target","_blank");
+		$(function () {
+			$(".md a").attr("target", "_blank");
 		});
 
-		$(function() {
+		$(function () {
 			$('.socicon1').hover(
-				function() {
-				$('.socicon_linked').css('fill', '#7c7c7c');
-			},	function() {
-				$('.socicon_linked').css('fill', '#000000');
+				function () {
+					$('.socicon_linked').css('fill', '#7c7c7c');
+				}, function () {
+					$('.socicon_linked').css('fill', '#000000');
 				});
-			});
+		});
 
-		$(function() {
+		$(function () {
 			$('.socicon2').hover(
-				function() {
-				$('.socicon_insta').css('fill', '#7c7c7c');
-			},	function() {
-				$('.socicon_insta').css('fill', '#000000');
+				function () {
+					$('.socicon_insta').css('fill', '#7c7c7c');
+				}, function () {
+					$('.socicon_insta').css('fill', '#000000');
 				});
-			});
+		});
 
-		$(function() {
+		$(function () {
 			$('.socicon3').hover(
-				function() {
-				$('.socicon_gith').css('fill', '#7c7c7c');
-			},	function() {
-				$('.socicon_gith').css('fill', '#000000');
+				function () {
+					$('.socicon_gith').css('fill', '#7c7c7c');
+				}, function () {
+					$('.socicon_gith').css('fill', '#000000');
 				});
-			});
-
- 		</script>
+		});
+	</script>
 </head>
