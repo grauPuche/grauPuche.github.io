@@ -15,15 +15,15 @@ year: 2017
 #categories:
 #	applications
 #	physical computing 
-#	computationa_media 
-#	sound_&_video 
-#	alt_docs
-#	towers_of_power 
-#	analog_circuits 
-#	nature_of_code
-#	networked_media
+#	computational media 
+#	sound & video 
+#	alt docs
+#	towers of power 
+#	analog circuits 
+#	nature of code
+#	networked media
 #	piecing it together
-#	bluetooth_LE
+#	bluetooth LE
 ---
 
 
