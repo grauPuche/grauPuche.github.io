@@ -592,3 +592,12 @@ blockquote {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+.md .jif{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 50px solid #ffffff;
+    background: #7c7c7c;
+    width:512px;
+}
