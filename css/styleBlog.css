@@ -597,7 +597,29 @@ blockquote {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    border: 50px solid #ffffff;
-    background: #7c7c7c;
+    border-right: 50px solid #ffffff;
+    border-left: 50px solid #ffffff;
     width:512px;
+}
+
+.md p .jif{
+        padding-top: 30px;
+}
+
+.md .jif + em{
+    border-left: 65px solid #ffffff;
+    margin-bottom: 30px
+
+}
+
+.md .caption15{
+    border-left: 15px solid #ffffff;
+}
+.md .caption65{
+    border-left: 65px solid #ffffff;
+}
+
+hr{
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
