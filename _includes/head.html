@@ -15,6 +15,8 @@
 			$(".category").mouseout(sortir);
 			$(".about").mouseover(entrar);
 			$(".about").mouseout(sortir);
+			$(".blog").mouseover(entrar);
+			$(".blog").mouseout(sortir);
 		}
 
 		function entrar() {
@@ -59,5 +61,115 @@
 					$('.socicon_gith').css('fill', '#000000');
 				});
 		});
+
+		$(function () {
+			$(".allCat").hover(
+				function () {	
+					$("#top_bar").animate({ height: '300px' });
+					$(".classes ").animate({ opacity: '1' });
+				},function () {
+					$("#top_bar").animate({ height: '85px' });
+					$(".classes ").animate({ opacity: '0' });
+				});
+		});
+
+
+		$(function () {
+			$('#fall16').click(
+				function () {
+					$('#y1-1').animate({opacity: '1'});
+					$('#y1-1').css('display', 'inline');
+					$('#y1-2').animate({opacity: '0'});
+					$('#y1-2').css('display', 'none');
+					$('#y1-3').animate({opacity: '0'});
+					$('#y1-3').css('display', 'none');
+					$('#y2-1').animate({opacity: '0'});
+					$('#y2-1').css('display', 'none');
+					$('#y2-2').animate({opacity: '0'});
+					$('#y2-2').css('display', 'none');
+					$('#y2-3').animate({opacity: '0'});
+					$('#y2-3').css('display', 'none');
+					$('.lookUpJif').animate({opacity: '0'});
+					$('.lookUpJif').css('display', 'none');
+				});
+		});
+		$(function () {
+			$('#spring17').click(
+					function () {
+					$('#y1-1').animate({opacity: '0'});
+					$('#y1-1').css('display', 'none');
+					$('#y1-2').animate({opacity: '1'});
+					$('#y1-2').css('display', 'inline');
+					$('#y1-3').animate({opacity: '0'});
+					$('#y1-3').css('display', 'none');
+					$('#y2-1').animate({opacity: '0'});
+					$('#y2-1').css('display', 'none');
+					$('#y2-2').animate({opacity: '0'});
+					$('#y2-2').css('display', 'none');
+					$('#y2-3').animate({opacity: '0'});
+					$('#y2-3').css('display', 'none');
+					$('.lookUpJif').animate({opacity: '0'});
+					$('.lookUpJif').css('display', 'none');
+				});
+		});
+		$(function () {
+			$('#summer17').click(
+				function () {
+					$('#y1-1').animate({opacity: '0'});
+					$('#y1-1').css('display', 'none');
+					$('#y1-2').animate({opacity: '0'});
+					$('#y1-2').css('display', 'none');
+					$('#y1-3').animate({opacity: '1'});
+					$('#y1-3').css('display', 'inline');
+					$('#y2-1').animate({opacity: '0'});
+					$('#y2-1').css('display', 'none');
+					$('#y2-2').animate({opacity: '0'});
+					$('#y2-2').css('display', 'none');
+					$('#y2-3').animate({opacity: '0'});
+					$('#y2-3').css('display', 'none');
+					$('.lookUpJif').animate({opacity: '0'});
+					$('.lookUpJif').css('display', 'none');
+				});
+		});
+	$(function () {
+			$('#fall17').click(
+				function () {
+					$('#y1-1').animate({opacity: '0'});
+					$('#y1-1').css('display', 'none');
+					$('#y1-2').animate({opacity: '0'});
+					$('#y1-2').css('display', 'none');
+					$('#y1-3').animate({opacity: '0'});
+					$('#y1-3').css('display', 'none');
+					$('#y2-1').animate({opacity: '1'});
+					$('#y2-1').css('display', 'inline');
+					$('#y2-2').animate({opacity: '0'});
+					$('#y2-2').css('display', 'none');
+					$('#y2-3').animate({opacity: '0'});
+					$('#y2-3').css('display', 'none');
+					$('.lookUpJif').animate({opacity: '0'});
+					$('.lookUpJif').css('display', 'none');
+				});
+		});
+		$(function () {
+			$('#spring18').click(
+				function () {
+					$('#y1-1').animate({opacity: '0'});
+					$('#y1-1').css('display', 'none');
+					$('#y1-2').animate({opacity: '0'});
+					$('#y1-2').css('display', 'none');
+					$('#y1-3').animate({opacity: '0'});
+					$('#y1-3').css('display', 'none');
+					$('#y2-1').animate({opacity: '0'});
+					$('#y2-1').css('display', 'none');
+					$('#y2-2').animate({opacity: '1'});
+					$('#y2-2').css('display', 'inline');
+					$('#y2-3').animate({opacity: '0'});
+					$('#y2-3').css('display', 'none');
+					$('.lookUpJif').animate({opacity: '0'});
+					$('.lookUpJif').css('display', 'none');
+				});
+		});
 	</script>
 </head>
+
+

@@ -226,6 +226,7 @@ article {
     width: 1024px;
     position: fixed;
     z-index: 200;
+    overflow: hidden;
 }
 
 #main_title {
@@ -239,6 +240,7 @@ article {
 #main_title_img {
     float: left;
     margin-right: 10px;
+    overflow: visible;
 }
 
 .categories {
@@ -251,6 +253,59 @@ article {
     line-height: 120%;
 }
 
+.categoriesClasses {
+    float: left;
+    width: 235px;
+    font-style: italic;
+    font-size: 10pt;
+    line-height: 150%;
+    padding-left: 10px;
+    border-left: 1px solid #111111;
+}
+
+.allCat{
+    width: 575px;
+    float: left;
+}
+
+#y1-1{
+    margin-left: 0px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+
+#y1-2{
+    margin-left: 0px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+#y1-3{
+    margin-left: 0px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+#y2-1{
+    margin-left: 145px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+#y2-2{
+    margin-left: 145px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+#y2-3{
+    margin-left: 50px;
+    opacity: 0;
+    position: absolute;
+    display: none;
+}
+
 .soc {
     width: 15px;
     height: 45px;
@@ -261,8 +316,9 @@ article {
 
 #about {
     float: left;
-    margin-left: 75px;
+    margin-left: 5px;
     margin-top: 41px;
+    width: 30px;
 }
 
 a.about {
@@ -270,6 +326,20 @@ a.about {
     font-size: 15px;
     color: #000000;
     font-weight: normal;
+}
+
+#blog{
+	float: left;
+	margin-left: 25px;
+	margin-top: 41px;
+	width: 30px;
+}
+
+a.blog{
+	font-family: tungsten_book;
+	font-size: 15px;
+    color: #000000;
+	font-weight: normal;
 }
 
 a.socicon1 {
@@ -304,13 +374,16 @@ a.socicon3 {
     height: 90px;
 }
 
+ul.semesterList{
+    list-style: none;
+}
+
 a.category {
     color: #000000;
     text-decoration: none;
     font-weight: 400;
     font-style: italic;
 }
-
 
 /*----------------------THUMNAILS----------------------*/
 
@@ -324,6 +397,18 @@ a.category {
     height: 256px;
     width: 512px;
     overflow: hidden;
+}
+
+.classes {
+    height: 256px;
+    width: 700px;
+    overflow: hidden;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-top: 10px solid #ffffff;
+    border-left: 10px solid #ffffff;
+    opacity:0;
 }
 
 a.th_box {
