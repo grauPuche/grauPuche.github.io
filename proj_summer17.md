@@ -1,4 +1,4 @@
 ---
 layout: cat__summer17
-permalink: /_summer_2017/
+permalink: /_summer17/
 ---

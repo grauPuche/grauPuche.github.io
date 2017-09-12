@@ -65,11 +65,11 @@
 		$(function () {
 			$(".allCat").hover(
 				function () {	
-					$("#top_bar").animate({ height: '300px' });
-					$(".classes ").animate({ opacity: '1' });
+					$("#top_bar").stop().animate({ height: '300px' });
+					$(".classes ").stop().animate({ opacity: '1' });
 				},function () {
-					$("#top_bar").animate({ height: '85px' });
-					$(".classes ").animate({ opacity: '0' });
+					$("#top_bar").stop().animate({ height: '85px' });
+					$(".classes ").stop().animate({ opacity: '0' });
 				});
 		});
 
