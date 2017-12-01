@@ -1,39 +1,3 @@
----
-layout: post
-title: serverBasics flyBy
-category: _projects
-categoryLink: _projects
-day: October 5th
-city: New York City
-number: 40
-year: 2017
-comments: true
-semester: fall 2017
-#projectSemester: _season year
-
-#Cities
-#	New York City
-#	Barcelona
-
-#categories:
-#	applications
-#	physical computing 
-#	computational media 
-#	sound & video 
-#	alt docs
-#	towers of power 
-#	analog circuits 
-#	nature of code
-#	networked media
-#	piecing it together
-#	bluetooth LE
-#	live web
-#	understanding networks
-#	pop up windows
-#	game design & psychology
-
----
-
 # What is this for
 
 Learning _web development_ in this day and age is something that lots of people are already doing, but we only know half of it. We only dive into the client-side end of the deal, so we know how to use HTML and javascript, but server-side is never mentioned.
