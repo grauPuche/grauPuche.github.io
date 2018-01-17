@@ -633,8 +633,8 @@ h1 {
 h2 {
     font-family: tungsten_semi;
     font-size: 15pt;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    /* margin-top: 50px; */
+    margin-bottom: -5px;
     font-style: inherit;
     margin-left: 35px;
 }
@@ -642,8 +642,8 @@ h2 {
 h3 {
     font-family: tungsten_book;
     font-size: 14pt;
-    margin-top: 40px;
-    margin-bottom: 30px;
+    /* margin-top: 40px; */
+    margin-bottom: -5px;
     font-style: inherit;
     margin-left: 45px;
 }
