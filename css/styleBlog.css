@@ -515,6 +515,11 @@ a.th_box_in1 {
     right: 256px;
 }
 
+.proj_img768{
+    position: relative;
+    right: 128px;
+}
+
 .blog_title512 {
     font-family: tungsten_semi;
     font-size: 35pt;
