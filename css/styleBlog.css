@@ -510,6 +510,11 @@ a.th_box_in1 {
     z-index: -200;
 }
 
+.proj_img1024{
+    position: relative;
+    right: 256px;
+}
+
 .blog_title512 {
     font-family: tungsten_semi;
     font-size: 35pt;
@@ -618,6 +623,26 @@ pre {
     width: 512px;
 }
 
+table{
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+    margin-top: 40px;
+    text-align: left;
+}
+thead {
+    font-family: tungsten_book;
+    font-size: 14pt;
+    background-color: #d3d3d3;
+}
+table, th, td {
+    border-bottom: 1px solid #d3d3d3;
+}
+td, th {
+    padding: 5px;
+}
+
+
 
 /*---------------------- MARKDOWN ----------------------*/
 
@@ -653,6 +678,9 @@ ul {
     list-style-type: circle;
     margin-top: 16px;
     margin-bottom: 16px;
+}
+ul ul{
+    margin-left: 20px;
 }
 
 ol {
