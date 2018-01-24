@@ -651,6 +651,10 @@ td, th {
 
 /*---------------------- MARKDOWN ----------------------*/
 
+/* .md{
+    overflow: hidden;
+} */
+
 h1 {
     font-family: tungsten_semi;
     font-size: 25pt;
@@ -692,11 +696,21 @@ ol {
     list-style: decimal;
 }
 
-code {
+.code,
+pre  {
     font-family: 'PT Mono';
     color: #343434;
     margin-top: 15px;
     margin-bottom: 20px;
+    overflow: scroll;
+    /* overflow: hidden; */
+    padding: 10px;
+}
+
+code {
+    font-family: 'PT Mono';
+    color: #343434;
+    /* overflow: hidden; */
 }
 
 td.gutter.gl {
@@ -739,6 +753,6 @@ blockquote {
 }
 
 hr{
-    margin-top: 80px;
-    margin-bottom: 40px;
+    width: 100%;
+    display: inline-block;
 }
