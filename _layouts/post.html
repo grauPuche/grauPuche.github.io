@@ -8,37 +8,47 @@
 		{% include header.html %}
 		<div class="section">
 			<div class="blog_sidetext224">
-				<br>
-				{{page.day}}
+				<br> {{page.day}}
 				<div class="proj_date">{{page.city}} {{page.year}}</div>
 				<img class="proj_line" src="{{ 'img/proj/proj_line.png' | relative_url }}">
 				<br>
 				<br>
-				<a class="category" href="{{'/'}}{{page.categoryLink}}{{'/'| relative_url }}">{{page.category}}</a><br>
+				<a class="category" href="{{'/'}}{{page.categoryLink}}{{'/'| relative_url }}">{{page.category}}</a>
+				<br>
 			</div>
 			<div class="blog_title512">
-				<img src="{{ 'img/thumnailsBlog/'| relative_url }}{{page.number}}_1.png">
-				#{{page.number}} {{page.title}} <br><br>
+				<img src="{{ 'img/thumnailsBlog/'| relative_url }}{{page.number}}_1.png"> #{{page.number}} {{page.title}}
+				<br>
+				<br>
 			</div>
 			<div class="blog_text512">
 				<br>
 				<div class="md">{{content}}</div>
-					<p id="endName">
-						gP
-					</p>
-					<br><br><br><br>
-					{% if page.comments %} 
-					<div id="disqus_thread"></div>
-<script>
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://blog-graupuche-info.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-					• <a href="https://sgeos.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+				<br>
+				<br>
+				<br>
+				<p id="endName">
+					gP
+				</p>
+				<p>
+					<em>Please, tell me how good or bad this post was. And comment on anything that comes up in that beautiful brain of yours.</em>
+				</p>
+				{% if page.comments %}
+				<div id="disqus_thread"></div>
+				<script>
+					(function () {
+						var d = document,
+							s = d.createElement('script');
+						s.src = 'https://blog-graupuche-info.disqus.com/embed.js';
+						s.setAttribute('data-timestamp', +new Date());
+						(d.head || d.body).appendChild(s);
+					})();
+				</script>
+				<noscript>Please enable JavaScript to view the
+					<a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+				</noscript>
+				•
+				<a href="https://sgeos.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
 			</div>
 		</div>
 		{% include footer.html %}
