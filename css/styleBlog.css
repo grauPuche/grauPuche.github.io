@@ -253,6 +253,8 @@ article {
     line-height: 120%;
 }
 
+
+
 .categoriesClasses {
     float: left;
     width: 235px;
@@ -379,6 +381,13 @@ ul.semesterList{
 }
 
 a.category {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a.noCategory {
     color: #000000;
     text-decoration: none;
     font-weight: 400;
