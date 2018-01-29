@@ -761,6 +761,13 @@ blockquote {
     border-left: 65px solid #ffffff;
 }
 
+.md .caption1024{
+    position: relative;
+    right: 256px;
+}
+
+
+
 hr{
     width: 100%;
     display: inline-block;
