@@ -772,3 +772,20 @@ hr{
     width: 100%;
     display: inline-block;
 }
+
+p.addedFile{
+    padding: 10px;
+    /* border: #343434 solid 2px; */
+    text-align: center;
+    font-family: 'PT Mono';
+    font-size: 17px;
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    background: #eeeeee;
+}
+
+
+.attach{
+    height: 25px;
+}
