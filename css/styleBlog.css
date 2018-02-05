@@ -638,7 +638,7 @@ pre {
 }
 
 table{
-    width: 80%;
+    width: 85%;
     /* text-align: center; */
     margin: auto;
     margin-top: 40px;
@@ -647,10 +647,10 @@ table{
 thead {
     font-family: tungsten_book;
     font-size: 14pt;
-    background-color: #d3d3d3;
+    background-color: #e9e9e9;;
 }
 table, th, td {
-    border-bottom: 1px solid #d3d3d3;
+    border-bottom: 1px solid #e9e9e9;;
 }
 td, th {
     padding: 5px;
